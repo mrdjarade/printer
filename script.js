@@ -27,7 +27,7 @@ $(document).ready(function() {
         var changeText=false;
 
 		$(".toggle").click(function()	{
-  			$('nav ul').slideToggle(400);
+  			$('nav ul').slideToggle(500);
             if(!changeText) {
                 $(this).html("<i class='fa fa-times' aria-hidden='true'></i>");
                 changeText = true;
